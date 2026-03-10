@@ -1,5 +1,3 @@
-import { API } from 'next/app'
-
 export const createBookmark = async (url: string) => {
   const res = await fetch('/api/bookmarks', {
     method: 'POST',
